@@ -26,8 +26,6 @@ Site is live at : [Click me](https://exquisite-heliotrope-56dd00.netlify.app/)
 
 ## Project usage
 
-[Demo video](https://drive.google.com/file/d/16PjfmcIN0gfobhILHZ22Lm-AseiQbUPq/view?usp=sharing)
-
 1. On first login page, user can enter any name and email, but the password should be atleast 6 characters long, if not, the user will not be able to proceed to the next step and will show an error message. In username field, user can enter any name expect "KrishT0", this predefined username is set to show the error functionality.
 
 2. On second login page, user can upload a profile picture, if the user does not upload a picture and does not write anything on add loaction field, the user will not be able to proceed to the next step as the next button will not be active.
