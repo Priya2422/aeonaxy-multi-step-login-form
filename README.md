@@ -2,6 +2,8 @@
 
 This task is about creating a multi step login form which allows users to upload a profile picture, put their address and should have form validity. The project should be mobile responsive and should use technolgies like React, tailwindCSS and Fontawsome icons. The form should have the following steps:
 
+Site is live at : [Click me](https://main--glowing-sunburst-a1e73b.netlify.app/)
+
 ![alt text](./Readme/image.png)
 ![alt text](./Readme/image-1.png)
 ![alt text](./Readme/image-2.png)
