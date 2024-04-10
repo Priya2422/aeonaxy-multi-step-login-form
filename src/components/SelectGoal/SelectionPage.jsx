@@ -59,7 +59,7 @@ function SelectionPage({ nextStep, values, prevStep, handleFormData }) {
           </p>
         </div>
         <div className="flex flex-col gap-8 mt-28 semi-lg-mob:mt-16">
-          <div className="flex gap-8 semi-lg-mob:flex-col semi-lg-mob:items-center semi-lg-mob:gap-16 p-4">
+          <div className="flex gap-8 semi-lg-mob:flex-col semi-lg-mob:items-center semi-lg-mob:gap-16 m-auto">
             {data.map((item, index) => (
               <Card
                 key={index}

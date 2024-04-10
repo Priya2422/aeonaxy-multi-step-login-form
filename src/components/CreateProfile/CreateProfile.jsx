@@ -17,7 +17,7 @@ function CreateProfile({ nextStep, values, prevStep, handleFormData }) {
       <div className="font-cursive text-pink-500 font-extralight text-4xl m-16 mb-8 mt-0 pt-16 semi-mob:m-auto semi-mob:w-full semi-mob:text-center semi-mob:pt-8">
         dribble
       </div>
-      <div className="pl-10 m-auto mt-5 desk-rev:w-[90%] desk-rev:pl-0">
+      <div className="pl-10 m-auto mt-5 desk-rev:w-[90%] desk-rev:pl-0 w-[60%]">
         <div className="flex flex-col gap-5 semi-mob:text-center">
           <div className="text-4xl font-bold ">
             Welcome! Let's create your profile

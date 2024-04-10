@@ -32,24 +32,24 @@ function Card({
   return (
     <div
       className={`flex flex-col hover:border-2 p-2 rounded-xl border-2 relative hover:border-pink-400 gap-3 text-center 
-                     ${className} ${checked ? "border-pink-400" : ""}`}
+                     ${className} ${checked ? "border-pink-400" : ""} max-w-[400px]`}
       onClick={() => handleClick(id)}
       {...props}
     >
-      <img src={image} alt="eye innovation" className="h-30 w-[90%] m-auto" />
+      <img
+        src={image}
+        alt="eye innovation"
+        className={`h-30  m-auto ${checked ? "w-50%" : "w-[90%]"}`}
+      />
       <div>
         <h2 className="text-lg font-bold">{title}</h2>
         {checked && (
-          <p className="text-xs font-medium  text-gray-500">{content}</p>
+          <p className="text-xs font-medium  text-gray-500 w-[70%] m-auto">
+            {content}
+          </p>
         )}
       </div>
-      <div
-        className="flex items-center justify-center"
-        style={{
-          position: checked ? "relative" : "",
-          top: checked ? "40%" : "",
-        }}
-      >
+      <div className="flex items-center justify-center">
         {!checked ? (
           <div className="border-2 h-6 w-6 rounded-full"></div>
         ) : (
