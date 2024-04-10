@@ -36,22 +36,8 @@ function Card({
       onClick={() => handleClick(id)}
       {...props}
     >
-      <img
-        src={image}
-        alt="eye innovation"
-        className="h-30 w-[90%] m-auto"
-        style={{
-          position: checked ? "absolute" : "",
-          top: checked ? "-60px" : "",
-        }}
-      />
-      <div
-        style={{
-          marginTop: checked ? "80px" : "0px",
-          position: checked ? "relative" : "",
-          top: checked ? "40%" : "",
-        }}
-      >
+      <img src={image} alt="eye innovation" className="h-30 w-[90%] m-auto" />
+      <div>
         <h2 className="text-lg font-bold">{title}</h2>
         {checked && (
           <p className="text-xs font-medium  text-gray-500">{content}</p>
